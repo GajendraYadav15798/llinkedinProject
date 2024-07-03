@@ -1,0 +1,96 @@
+body{
+  background-color:#f3f2ee;
+}
+@media screen and (max-width:768px){
+  
+}
+.loader {
+  margin: 20px auto;
+  width: 48px;
+  height: 48px;
+  border: 5px dotted black;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.emptyPost-container{
+   text-align: center;
+}
+.feedPost {
+  display: flex;
+  flex: 1.1;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+.posts {
+  background-color: #fff;
+  /* width: 500px; */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+.post-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.post-header-left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post-header-left img{
+  cursor: pointer;
+}
+.post-header-left .post-profile-details h3 {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.post-header-left .post-profile-details h3:hover{
+  text-decoration: underline;
+}
+.post-header-left .post-profile-details p {
+  font-size: 12px;
+  margin: 0;
+  margin-left: 10px;
+}
+.post-body .mainImage {
+  
+   width: 100%;
+  
+  padding: 5px 0px; 
+}
+.imageLiker {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+@media only screen and (max-width: 767px) {
+  .feedPost {
+    margin: 0 -70px;
+  }
+  .posts{
+    width: 95%;
+  }
+ .posts .post-body .mainImage{
+    width: 100%;
+  }
+  .imageLiker{
+     margin-left: 10px;
+  }
+}

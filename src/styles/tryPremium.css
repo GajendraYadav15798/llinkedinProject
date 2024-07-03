@@ -1,0 +1,77 @@
+.trypremiumPage{
+
+   
+   margin-bottom: 0;
+   padding: 2.4rem 0;
+   background: #fff;
+}
+.header{
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid hsla(0, 0, 55%, 0.2);
+    padding-bottom: 0.3rem;
+
+}
+.box{
+    background-color: #fff;
+    height: 50px;
+}
+.trypremiumPage input[type="range"]{
+    margin: 0 auto;
+    width: 300px;
+    fill: none;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 23px;
+}
+input span{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+}
+.premiumBox1{
+    display: flex;
+    align-items: center;
+}
+.premiumBox{
+    margin: auto;
+    margin-top: 2rem;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.premiumBox h5{
+   padding-top: 2.4rem;
+   margin-left: 10px;
+   
+}
+.premiumBox p{
+    margin-left: 20px;
+}
+.premiumBox input{
+    margin-left: 40px;
+   
+}
+.premiumBox span{
+    margin: 0 20px;
+}
+.premiumBox div{
+    margin-bottom: 20px;
+}
+.premiumBox4{
+    margin-left: 410px;
+    text-align: center;
+   
+}
+.btn-next{
+    text-align: center;
+    padding-bottom: 5px;
+    height: 35px;
+    width: 60px;
+    border-radius: 8px;
+}

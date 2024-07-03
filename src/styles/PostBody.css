@@ -1,0 +1,99 @@
+.forLike.liked {
+  color: blue; /* Change the color to your desired liked color */
+}
+.page-footer {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 20px;
+
+}
+.forShowOption{
+  display: flex;
+}
+.page-footer-option {
+  
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.page-footer-option svg {
+  margin-right: 8px;
+ 
+}
+.page-footer-option span {
+  font-size: 15px;
+  font-weight: 490;
+}
+.post-comments-section{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  gap: 0.7rem;
+}
+.post-comment-content{
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F2EE;
+  border-radius: 3px 10px 10px 10px;
+  padding: 0.5rem;
+ 
+}
+.post-comment-content h2{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.post-comment-content p{
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 380;
+}
+.post-comment{
+  display: flex;
+  gap: 0.8rem;
+}
+
+.post-comment button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.post-comment button:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.compose-comment{
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.compose-comment input{
+  width: 70%;
+  border-radius: 25px;
+  border: 1px solid #666666;
+ 
+  
+}
+.compose-comment input[type="text"] {
+  padding: 7px 10px;
+}
+.compose-comment button{
+  border: none;
+  margin-top: 0px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .forShowOption {
+    width: 100%;
+  }
+  .page-footer-option{
+    width: 100%;
+  }
+}
